@@ -25,9 +25,9 @@ The SDK itself is **not required for end users of this patcher**.
 For testing RR on RDNA 3, you will need:
 
 * A patched VKD3D-Proton build:
-  **[patched VKD3D-Proton build](VKD3D_LINK)**
+  **[patched VKD3D-Proton build](https://github.com/try228/vkd3d-proton-FSR_RR/releases/tag/FSR_RR_on_RDNA_3)**
 * `dxgi.dll` from DXVK:
-  **[DXVK](DXVK_LINK)**
+  **[DXVK](https://github.com/doitsujin/dxvk/releases)**
 * Your own copy of `amd_fidelityfx_denoiser_dx12.dll`
 
 ## Applying the patch
@@ -41,7 +41,7 @@ amd_fidelityfx_denoiser_dx12.dll
 Then run the patcher from that directory:
 
 ```bash
-./fsr-rr-patcher
+./patch_rr
 ```
 
 The patcher modifies the local DLL in place.
