@@ -1,0 +1,5 @@
+*.py
+*.spec
+/dist
+/build
+.git
