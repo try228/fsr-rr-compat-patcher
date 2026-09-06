@@ -70,7 +70,7 @@ You will also need the patched VKD3D-Proton build and the required `dxgi.dll` fr
 
 ```text
 test/
-├── fsr-rr-patcher
+├── patch_rr
 ├── amd_fidelityfx_denoiser_dx12.dll
 ├── dxgi.dll
 └── ...
